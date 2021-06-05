@@ -241,7 +241,8 @@ body {
         float: left;
         position: relative;
         width: 33.33333%;
-        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+        outline-offset: 1rem; } }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
@@ -272,7 +273,8 @@ body {
       z-index: 2000; }
       @media (max-width: 56.25em) {
         .composition__photo:hover {
-          transform: scale(1.45) translateY(-0.5rem); } }
+          outline: 1rem solid #55c57a;
+          transform: scale(1.25) translateY(-0.5rem); } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
     @media (max-width: 56.25em) {
@@ -592,7 +594,7 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0; } }
+      padding: 30rem 0 20rem 0; } }
 
 .section-features {
   padding: 20rem 0;
